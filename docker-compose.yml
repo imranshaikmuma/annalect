@@ -1,0 +1,19 @@
+services:
+  spark-master:
+    working_dir: /app
+    volumes:
+      - ./:/app
+    image: bitnami/spark:3.5.0
+    ports:
+      - "8080:8080"
+    environment:
+      - SPARK_MODE=master
+
+  spark-worker:
+    working_dir: /app
+    volumes:
+      - ./:/app
+    image: bitnami/spark:3.5.0
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER=spark-master:8080
