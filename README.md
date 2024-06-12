@@ -38,3 +38,8 @@ to run the code we need to pass the icebarg package jar file
 ## spark UI screenshot that contains submitted application
 
 ![screenshot](spark_ui.png)
+
+
+## output after converting csv format to iceberg format
+
+![screenshot](iceberg.png)
