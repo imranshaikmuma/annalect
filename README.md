@@ -21,8 +21,8 @@ stop all running containers: `docker-compose down`
 
 ## Screenshots that contains output
 
-![screenshot](/Users/imranshaik/annalect/Screenshot 2024-06-12 at 3.26.24 PM.png)
+![screenshot](output.png)
 
 spark UI screenshot that contains submitted application
 
-![screenshot](/Users/imranshaik/annalect/Screenshot 2024-06-12 at 3.27.44 PM.png)
+![screenshot](spark_ui.png)
