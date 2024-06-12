@@ -3,11 +3,9 @@
 annalect interview project contains all the required modules 
 
 ## Directory Structure
-- `core`: Contains core classes for common tasks like opening and reading a file and calculate common tasks like counting number of employees
-- `tests`: Contains test classes for testing various modules like ingesting data, processing etc 
-- `inputs`: Contains various input combinations
-- `employee_pairs.py`: Contains main script that performs all core functions and outputs the end result of employee pairs
-- `persons.json`: Contains the input JSON file that contains employee experiences
+- `crude_oil.py`: Python script to process crude oil data
+- `docker-compose.yml`: Docker compose to start docker images
+- `data.csv`: Input csv file that contains crude oil data downloaded from kaggle
 - `spark-warehouse`: Contains spark iceberg warehouse details
 
 ## Installation
