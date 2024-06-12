@@ -19,10 +19,10 @@ above command will display output for three questions in the interview request
 stop all running containers: `docker-compose down`
 
 
-## Screenshots that contains output
+# Screenshots that contains output
 
 ![screenshot](output.png)
 
-spark UI screenshot that contains submitted application
+# spark UI screenshot that contains submitted application
 
 ![screenshot](spark_ui.png)
